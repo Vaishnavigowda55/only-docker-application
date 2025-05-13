@@ -1,0 +1,98 @@
+docker login 
+
+docker logout
+
+docker start 
+
+docker restart
+
+docker build -t my-app:latest .   #build base image from the context 
+
+docker images
+
+docker pull ubuntu:latest
+
+docker run -d -p 5000:5000 container_name 
+
+docker ps 
+
+docker run -itd ubuntu
+
+docker logs container_id 
+
+docker attach container_id   #displays its console output in the terminal.
+
+docker inspect container_name
+
+docker exec -it container_id sh 
+
+docker stats 
+
+docker top 
+
+docker rmi image_id
+
+docker images -aq 
+
+docker rmi -f $(docker images -aq)
+
+docker stop container_id 
+
+docker kill  container_id
+
+docker rm container_id
+
+docker start container_id 
+
+docker restart container_id
+
+docker rename old_name new_name  #rename container 
+
+docker kill 
+
+docker  network create my-network  -d  bridge
+
+docker network ls
+
+docker network connect my-network my-container
+
+docker volume create my-volume
+
+docker volume ls 
+
+docker volume inspect my-volume
+
+docker volume rm my-volume
+
+docker history 
+
+docker-compose up -d 
+
+docker-compose up -d --build 
+
+docker-compose down  #remove the container  
+
+docker-compose logs 
+
+docker top
+
+docker images tag my-app:latest(old name )  vaishnavi/mypython-app(new name)
+
+docker push vaishnavi/mypython-app
+
+docker pull vaishnavi/mypython-app
+
+nohup docker attach container_id #store all logs in nohup out files
+
+docker system prune
+
+docker pause 
+
+docker unpause
+
+docker system df 
+
+dcoker info 
+
+
+

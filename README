@@ -1,0 +1,36 @@
+Docker Engine #Docker application engine
+
+Docker Daemon # Manages Docker containers, images, and networks. Runs as a background service.
+
+Container d  # A container runtime used by Docker to manage containers in the background.
+
+Docker  Cli # Command-line interface to interact with Docker Daemon.
+
+
+sudo usermod -aG docker $USER  # Adds the current user to the Docker group to interact with Docker Daemon
+
+
+newgrp docker # Refreshes the Docker group for the current session
+
+
+Docker file # Contains all dependencies, source code, and necessary configurations to build a Docker image.
+   
+
+Docker container # Runs in an isolated environment, encapsulating the application and its dependencies.
+
+
+Docker Muulti-stage ## Optimizes image size by using multiple build stages in a Dockerfile.
+
+Docker-compose ## Defines and manages multi-container applications with a docker-compose.yml file
+
+Docker network:
+    Host
+    Bridge (default)
+    User defined (custom)
+    None
+    IPVLAN 
+    Overlay
+
+Docker voulmes 
+
+Docker registry 
